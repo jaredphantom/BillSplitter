@@ -67,7 +67,7 @@ DOCUMENTATION
 
 - main: 
         landing page for the site, prompts user to login.
-        starts new php session when page loads, clicking login button or register button will trigger login.php or register.php.
+        starts new php session, clicking login or register button will trigger login.php or register.php.
 - register:
         allows a new user to register an account for billsplitter.
         email, password, and name all stored in database upon successful account creation.
@@ -96,7 +96,7 @@ php scripts:
         closes the session and returns user to the home page.
 - pay:
         when user 'pays' for a bill the database gets updated to represent the payment being made.
-        if all the people have paid for a bill then the bill will be deleted from the database as it is determined to be fully paid.
+        if all the people have paid for a bill then the bill will be deleted from the database.
 - savereg: 
         allows a new user to register an account with email, password, and name.
         user can verify password with double entry to prevent typos.
