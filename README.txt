@@ -67,7 +67,7 @@ DOCUMENTATION
 
 - main: 
         landing page for the site, prompts user to login.
-        starts new php session when page loads, clicking login button or register button will trigger login.php or register.php respectively.
+        starts new php session when page loads, clicking login button or register button will trigger login.php or register.php.
 - register:
         allows a new user to register an account for billsplitter.
         email, password, and name all stored in database upon successful account creation.
@@ -109,7 +109,7 @@ sql:
 
 - schema:
         simple database schema with two tables, representing users and bills respectively.
-        userID uniquely identifies users and username, encrypted password, and name stored for each user.
-        billID uniquely identifies bills and name, total amount, number of people splitting, and each email / payment status stored.
+        userID uniquely identifies users. username, encrypted password, and email stored for each user.
+        billID uniquely identifies bills. name, total amount, number of people, and each email / payment status stored.
 
 ------------------------------------------------------
